@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Portfolio website using HTML, CSS and JavaScript" />
+  <meta name="keywords" content="HTML,CSS,JavaScript,Portfolio" />
+  <meta name="author" content="Gayathri Devi Nagalapuram" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chunchu Manoj</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Playfair+Display&display=swap"
+    rel="stylesheet" />
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main>
+    <!--Navigation Bar-->
+    <header id="navbar" class="navbar">
+      <div class="logo">
+        <a href="#">
+          CHUNCHU MANOJ
+        </a>
+      </div>
+      <nav class="navbar-menu">
+        <ul>
+          <li><a href="#intro">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="toggle-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul class="toggle-options">
+        <li><a href="#intro">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <!--Intro-->
+    <section id="intro" class="intro">
+      <div class="profile-logo ">
+        <img src="./images/manoj1.jpg" alt="" width="300" height="300" />
+      </div>
+      <div class="profile-name ">
+        <p class="header-styling">Hello!</p>
+        <p class="header-styling">
+          I'm <span class="purple-highlight">Manoj</span>.
+        </p>
+        <p class="desc-styling">
+          A <span class="purple-highlight">Frontend</span> Developer!
+        </p>
+      </div>
+    </section>
+    <!--About Me-->
+    <section id="about" class="about-me">
+      <div class="section-header-styling " role="heading" aria-label="heading">
+        <p>
+          Crafting Memorable
+          <span class="purple-highlight">Web Experiences </span>
+        </p>
+      </div>
+      <blockquote class="about-desc ">
+        <p>
+          "I have a year of valuable experience in crafting user-friendly and
+          visually <span class="purple-highlight">appealing websites.</span>
+          As a recent graduate, I'm eager to leverage my skills and passion to
+          contribute to innovative projects and grow in the field.
+        </p>
+        <p>
+          During my year of experience, I had the opportunity to work on
+          various projects, ranging from personal portfolios to business
+          websites. This hands-on experience has allowed me to gain
+          proficiency in
+          <span class="purple-highlight">HTML, CSS, and JavaScript </span>,
+          enabling me to build responsive and interactive web pages. While I
+          may not have extensive experience, my dedication, and willingness to
+          learn set me apart as a developer who strives for excellence in
+          every project I undertake.
+        </p>
+        <p>
+          As a fresh talent in the
+          <span class="purple-highlight">front-end development</span> arena,
+          I'm eager to collaborate with clients and seasoned professionals to
+          expand my knowledge and refine my skills. I understand the
+          importance of constant growth and improvement in this rapidly
+          evolving industry, and I'm always open to constructive feedback to
+          enhance my work further."
+        </p>
+        <cite>- Chunchu Manoj</cite>
+      </blockquote>
+    </section>
+    <!--Skills-->
+    <section id="skills" class="skills">
+      <div class="section-header-styling " role="heading" aria-label="heading">
+        <p class="purple-highlight">Skills</p>
+      </div>
+      <div id="skills-container">
+        <!-- Skill details will be dynamically added here -->
+      </div>
+    </section>
+    <!--Projects-->
+    <section id="projects" class="projects">
+      <div class="section-header-styling " role="heading" aria-label="heading">
+        <p class="purple-highlight">Projects</p>
+      </div>
+      <div id="projects-container">
+        <!-- Project details will be dynamically added here -->
+      </div>
+    </section>
+
+    <!--Education-->
+    <section id="education" class="education-div">
+      <div class="section-header-styling " role="heading" aria-label="heading">
+        <p class="purple-highlight">Education</p>
+      </div>
+      <div id="education-container" class="education">
+        <table id="education-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Board</th>
+              <th>Course</th>
+              <th>Year</th>
+              <th>Points</th>
+            </tr>
+          </thead>
+          <tbody id="education-details">
+            <!-- Education details will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer id="contact">
+      <h2>Let's collaborate!</h2>
+      <div id="contactContainer">
+        <div class="icon-styling">
+          <a href="tel:6300814835" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-phone fa-xl"></i>Contact
+
+          </a>
+        </div>
+        <div class="icon-styling">
+          <a href="mailto:chunchumanoj2002@gmail.com" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-envelope fa-2xl"></i>Mail
+          </a>
+        </div>
+        <div class="icon-styling">
+          <a href="https://www.linkedin.com/in/chunchu-manoj-5246aa213" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-linkedin fa-2xl"></i>Linkedin
+          </a>
+        </div>
+        <div class="icon-styling">
+          <a href="https://github.com/chunchu-manoj" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-github fa-2xl"></i>Github
+          </a>
+        </div>
+      </div>
+      <h3>
+        Copyright ©2024 All rights reserved | This website is made by Chunchu Manoj
+        using HTML, CSS & JavaScript
+      </h3>
+      <button id="scrollToTopBtn">
+        <i class="fa-solid fa-hand-point-up fa-xl" style="color:#9681eb"></i></button </footer>
+  </main>
+  <script defer src="index.js"></script>
+</body>
+
+</html>
